@@ -4,9 +4,11 @@
  * Module dependencies.
  */
 
-const debug = require("debug")("project2example:server");
-const http = require("http");
-const app = require("../app");
+import { debug as Debug } from "debug";
+import http from "http";
+import app from "../app";
+
+const debug = Debug("project2example:server");
 
 /**
  * Normalize a port into a number, string, or false.
