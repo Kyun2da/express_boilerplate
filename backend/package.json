@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node dist/main.js",
-    "dev": "nodemon --watch dist/main.js",
-    "build": "webpack"
+    "start": "node ./bin/www",
+    "dev": "nodemon --watch ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
