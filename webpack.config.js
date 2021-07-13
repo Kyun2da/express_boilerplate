@@ -18,4 +18,10 @@ module.exports = {
       template: "./public/index.html",
     }),
   ],
+  // 로더 : 각 파일을 어떻게 처리할지 결정
+  //   module: {
+  //     rules: [
+
+  //     ],
+  //   },
 };
